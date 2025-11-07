@@ -19,11 +19,6 @@
                         <img src="{{ $project['image'] }}" 
                              alt="{{ $project['title'] }}" 
                              class="w-full h-full object-cover hover:scale-110 transition duration-500">
-                        <div class="absolute top-3 right-3 sm:top-4 sm:right-4">
-                            <span class="bg-primary text-white px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-bold shadow-lg">
-                                {{ $project['type'] }}
-                            </span>
-                        </div>
                     </div>
                     
                     <!-- Project Content -->
