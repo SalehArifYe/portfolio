@@ -46,14 +46,14 @@ class PortfolioController extends Controller
             'title' => 'Full Stack Developer',
             'subtitle' => 'Flutter • Laravel • API Development',
             'bio' => 'مطور Full Stack متخصص في Flutter و Laravel. خبرة في بناء تطبيقات حديثة مع واجهات Responsive وAnimations سلسة. أطور RESTful APIs آمنة باستخدام Laravel و MySQL، وأدير الحالة بكفاءة باستخدام Cubit و Provider. ملتزم بكتابة Clean Code وفق مبادئ Clean Architecture و MVVM.',
-            'email' => 'saleharif733727@gmail.com.com',
+            'email' => 'saleharif733727@gmail.com',
             'phone' => '+967 781976893',
             'location' => 'عدن، اليمن',
             'age' => '21',
             'education' => 'بكالوريوس في نظم المعلومات - السنة الثالثة، جامعة عدن',
             'github' => 'github.com/saleh',
             'linkedin' => 'linkedin.com/in/saleh',
-            'projectsCompleted' => '5',
+            'projectsCompleted' => '4',
             'happyClients' => '5+',
             'languages' => 'العربية (اللغة الأم)، الإنجليزية (جيد)',
             'goal' => 'السعي لتطوير تطبيقات احترافية وحديثة تجمع بين واجهات Flutter الجذابة وقوة Laravel في تطوير الـ Backend، مع الالتزام بتقديم كود نظيف وسهل الصيانة، ومواكبة أحدث التقنيات لإنشاء حلول برمجية متقدمة وفعالة، واكتساب الخبرة العملية لتعزيز مهاراتي المهنية في مجال تطوير البرمجيات.',
@@ -68,7 +68,7 @@ class PortfolioController extends Controller
         return [
             [
                 'category' => 'Flutter Development',
-                'icon' => 'M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-7z',
+                'icon' => 'M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z',
                 'color' => 'purple',
                 'items' => ['Responsive UI Development', 'Smooth Animations', 'Dio for APIs', 'State Management (Bloc, Cubit, Provider)']
             ],
